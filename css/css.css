@@ -1,0 +1,64 @@
+body .navbar {
+  background-color: #342a51;
+  color: #e3e3e3;
+}
+.form-floating {
+  margin-top: 50px;
+  max-width: 100%;
+  min-height: 300px;
+}
+.form-floating .container {
+  height: 100%;
+}
+.form-floating .container textarea {
+  min-height: 300px;
+  background-color: #342a51;
+  color: #e3e3e3;
+  outline: none;
+}
+.Btn {
+  margin-top: 20px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+@media (max-width: 767px) {
+  .Btn {
+    flex-direction: column;
+  }
+}
+.btn {
+  border: none;
+  width: 200px;
+  color: #e3e3e3;
+  font-weight: bold;
+  font-size: 15px;
+}
+.secondary {
+  background-color: #6c757d;
+}
+.primary {
+  background-color: #342a51;
+}
+.primary:hover {
+  background-color: #6c757d;
+}
+.navbar-brand i {
+  color: #e3e3e3;
+}
+h4 {
+  margin-top: 25px;
+  text-align: center;
+}
+.result {
+  padding-bottom: 50px;
+}
+#Html {
+  width: 100%;
+  min-height: 200px;
+  border-width: 2px;
+  padding: 10px;
+  border-style: dashed;
+}
